@@ -126,8 +126,6 @@ const char* password = "PASS";
 
 #define SERVO_STEP   5
 
-//Servo servoN1;
-//Servo servoN2;
 Servo servo1;
 Servo servo2;
 
@@ -363,8 +361,6 @@ void startCameraServer(){
 
 void setup() {
   WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0);
-//  servoN1.attach(2);
-//  servoN2.attach(13);
   
   servo1.attach(SERVO_1);
   servo2.attach(SERVO_2);
