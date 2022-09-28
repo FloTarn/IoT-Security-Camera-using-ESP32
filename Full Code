@@ -1,3 +1,5 @@
+//KOSEN-KMITL IoT project by 63990006 and 63990017
+
 #include "esp_camera.h"
 #include <WiFi.h>
 #include "esp_timer.h"
